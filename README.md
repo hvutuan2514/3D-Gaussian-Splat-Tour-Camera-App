@@ -85,17 +85,6 @@ Users can view and interact with the generated reconstruction outputs through th
 
 This project uses a combination of mobile development, cloud communication, and reconstruction technologies.
 
-### Public / Student-Developed Components
-
-- Mobile application interface
-- Camera capture workflow
-- Google Colab backend pipeline
-- Upload and communication systems
-- Reconstruction orchestration logic
-- UI/UX design components
-
-### Technologies Used
-
 - Mobile development frameworks
 - Camera APIs
 - Google Colab backend processing
