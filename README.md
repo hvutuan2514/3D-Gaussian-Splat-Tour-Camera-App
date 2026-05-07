@@ -169,13 +169,3 @@ This repository intentionally excludes:
 
 Only student-developed and publicly shareable components are included.
 
----
-
-# 👥 Intended Audience
-
-This repository is designed for:
-
-- Student development teams
-- Researchers exploring reconstruction workflows
-- Developers interested in mobile-to-cloud pipelines
-- Educational demonstrations and portfolio purposes
