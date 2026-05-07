@@ -116,22 +116,6 @@ This project uses a combination of mobile development, cloud communication, and 
 
 ---
 
-## ☁️ Upload & Processing
-
-![Processing Screen](./screenshots/processing-screen.png)
-
-*Images are uploaded and processed through backend services.*
-
----
-
-## 🧩 Reconstruction Viewer
-
-![Viewer Screen](./screenshots/viewer-screen.png)
-
-*Generated reconstruction results displayed inside the application.*
-
----
-
 # ⚠️ Current Limitations
 
 Some current limitations may include:
