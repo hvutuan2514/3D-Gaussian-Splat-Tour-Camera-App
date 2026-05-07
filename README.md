@@ -96,8 +96,6 @@ This project uses a combination of mobile development, cloud communication, and 
 
 # 📷 Screenshots
 
-> Replace the placeholder screenshot paths below with actual screenshots from the application.
-
 ---
 
 ## 🏠 Home Screen
