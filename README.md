@@ -8,8 +8,8 @@ A student-developed image capture and reconstruction workflow designed to simpli
 
 ---
 
-![Platform](https://img.shields.io/badge/Platform-Mobile%20%2B%20Cloud-blue)
-![Status](https://img.shields.io/badge/Status-In%20Development-green)
+![Platform](https://img.shields.io/badge/Platform-iOS%20%2B%20Android-blue)
+![Status](https://img.shields.io/badge/Status-Finished-green)
 ![Focus](https://img.shields.io/badge/Focus-Image%20Reconstruction-orange)
 
 </div>
@@ -91,13 +91,9 @@ Examples of technologies involved include:
 - REST API communication
 - UI/UX mobile design tools
 
-> ⚠️ Internal infrastructure, sponsor-owned code, API keys, and confidential systems are intentionally excluded from this public repository.
-
 ---
 
 # 📷 Screenshots
-
-> Replace the placeholder screenshots below with actual screenshots from the application.
 
 ---
 
@@ -130,34 +126,6 @@ Examples of technologies involved include:
 ![Viewer Screen](./screenshots/viewer-screen.png)
 
 *Generated reconstruction results displayed inside the application.*
-
----
-
-# 📚 How to Understand This Project
-
-The easiest way to understand the project is to follow the data flow:
-
-```text
-Capture Images
-    ↓
-Upload Data
-    ↓
-Process Images
-    ↓
-Generate Reconstruction
-    ↓
-Display Results
-```
-
-When exploring the repository, start with:
-
-1. Mobile application structure
-2. Camera capture logic
-3. Upload and communication systems
-4. Processing/reconstruction workflow
-5. Result visualization components
-
-The repository is organized to separate frontend interaction, backend communication, and reconstruction processing responsibilities.
 
 ---
 
@@ -199,11 +167,3 @@ This repository intentionally excludes:
 The goal of this public repository is to explain the project idea, workflow, and architecture at a high level while protecting confidential information.
 
 ---
-
-<div align="center">
-
-### 📱 Camera App Reconstruction System
-
-Built for educational and research purposes.
-
-</div>
