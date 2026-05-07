@@ -4,13 +4,13 @@
 
 ### Mobile Capture → Cloud Processing → Reconstruction → Interactive Viewing
 
-A student-developed image capture and reconstruction workflow designed to simplify the process of collecting images, processing them in the cloud, and visualizing reconstructed outputs.
+An image capture and reconstruction workflow designed to simplify the process of collecting images, processing them in the cloud, and visualizing reconstructed outputs.
 
 ---
 
 ![Platform](https://img.shields.io/badge/Platform-iOS%20%2B%20Android-blue)
 ![Status](https://img.shields.io/badge/Status-Finished-green)
-![Focus](https://img.shields.io/badge/Focus-Image%20Reconstruction-orange)
+![Focus](https://img.shields.io/badge/Focus-3D%20Reconstruction-orange)
 
 </div>
 
@@ -18,30 +18,30 @@ A student-developed image capture and reconstruction workflow designed to simpli
 
 # 🚀 Project Overview
 
-This project is a mobile-based camera and reconstruction system that allows users to:
+The **3D Gaussian Splat Tour Camera App** is a mobile-based image capture and reconstruction system that allows users to create immersive 3D scenes from captured images.
 
-- Capture images directly from a mobile application
-- Upload data to cloud/backend services
-- Process captured images through reconstruction pipelines
-- View generated outputs in an interactive interface
+The application streamlines the process of:
 
-The goal of the project is to create a streamlined workflow that combines image capture, cloud processing, and visualization into a single user experience.
+- Capturing image data from a mobile device
+- Uploading image sets to a cloud/backend pipeline
+- Processing images into reconstructed 3D outputs
+- Viewing generated scenes interactively
 
-This repository intentionally shares only the public-facing architecture and workflow of the project while excluding confidential sponsor/company implementation details.
+This project was developed as part of a Capstone project.
 
 ---
 
 # ❗ Problem the Project Solves
 
-Traditional image reconstruction workflows can be difficult because they often require users to:
+Traditional reconstruction workflows often require users to:
 
-- Manually transfer image files
-- Use multiple disconnected tools
-- Configure processing pipelines separately
-- Wait for reconstruction results without integrated feedback
-- View outputs in external software
+- Capture images separately
+- Transfer files manually
+- Configure processing tools independently
+- Wait for disconnected reconstruction pipelines
+- Use external visualization software
 
-This project simplifies the workflow by integrating the major steps into one connected system.
+This project simplifies that workflow by integrating the major stages into a single connected experience.
 
 ---
 
@@ -52,9 +52,9 @@ Mobile Camera App
         ↓
 Image Upload / Cloud Storage
         ↓
-Backend Processing Pipeline
+Colab Backend Processing
         ↓
-Reconstruction Generation
+3D Reconstruction Generation
         ↓
 Interactive Viewing Interface
 ```
@@ -64,36 +64,50 @@ Interactive Viewing Interface
 # 🔄 Main Workflow
 
 ## 1️⃣ Capture Images
-Users capture multiple images using the mobile application camera interface.
+
+Users capture multiple images directly from the mobile application.
 
 ## 2️⃣ Upload to Backend / Cloud
-The captured image set is uploaded for processing and storage.
+
+The captured image set is uploaded to backend/cloud services for processing.
 
 ## 3️⃣ Reconstruction Processing
-Backend services process the uploaded images and generate reconstruction outputs.
 
-## 4️⃣ View Results
-The generated results are displayed through the application's viewing interface.
+The uploaded images are processed through reconstruction pipelines using backend processing workflows.
+
+## 4️⃣ Interactive Viewing
+
+Users can view and interact with the generated reconstruction outputs through the application.
 
 ---
 
 # 🛠 Technologies & Tools
 
-This project uses a combination of mobile development, cloud communication, and image-processing technologies.
+This project uses a combination of mobile development, cloud communication, and reconstruction technologies.
 
-Examples of technologies involved include:
+### Public / Student-Developed Components
 
-- Mobile application frameworks
+- Mobile application interface
+- Camera capture workflow
+- Google Colab backend pipeline
+- Upload and communication systems
+- Reconstruction orchestration logic
+- UI/UX design components
+
+### Technologies Used
+
+- Mobile development frameworks
 - Camera APIs
-- Cloud storage/backend services
-- Image processing pipelines
-- Reconstruction workflows
+- Google Colab backend processing
+- Cloud storage and networking
+- Reconstruction/image-processing pipelines
 - REST API communication
-- UI/UX mobile design tools
 
 ---
 
 # 📷 Screenshots
+
+> Replace the placeholder screenshot paths below with actual screenshots from the application.
 
 ---
 
@@ -131,13 +145,13 @@ Examples of technologies involved include:
 
 # ⚠️ Current Limitations
 
-Because the project is still evolving, some limitations may include:
+Some current limitations may include:
 
 - Processing time depending on image count
 - Reconstruction quality variability
-- Network dependency for uploads
-- Device compatibility differences
-- Limited real-time feedback during processing
+- Dependence on stable network connectivity
+- Hardware/device performance differences
+- Limited real-time processing feedback
 
 ---
 
@@ -145,13 +159,13 @@ Because the project is still evolving, some limitations may include:
 
 Potential future enhancements include:
 
-- Faster cloud processing
-- Improved reconstruction accuracy
-- Better visualization tools
-- Real-time progress feedback
-- Enhanced offline support
+- Faster reconstruction pipelines
+- Improved 3D reconstruction quality
+- Better interactive visualization tools
+- Real-time reconstruction updates
 - Expanded device compatibility
-- Improved error handling and recovery
+- Improved offline capabilities
+- Enhanced error handling and recovery
 
 ---
 
@@ -160,10 +174,19 @@ Potential future enhancements include:
 This repository intentionally excludes:
 
 - Private API keys
-- Sponsor-owned systems
+- Sponsor/company-owned systems
 - Internal infrastructure
 - Sensitive implementation details
 
-The goal of this public repository is to explain the project idea, workflow, and architecture at a high level while protecting confidential information.
+Only student-developed and publicly shareable components are included.
 
 ---
+
+# 👥 Intended Audience
+
+This repository is designed for:
+
+- Student development teams
+- Researchers exploring reconstruction workflows
+- Developers interested in mobile-to-cloud pipelines
+- Educational demonstrations and portfolio purposes
