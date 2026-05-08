@@ -106,6 +106,30 @@ This project uses a combination of mobile development, cloud communication, and 
 
 ---
 
+## 🖼 Gallery Screen
+
+![Gallery Screen](./screenshots/gallery-screen.png)
+
+*Users can view captured image sets and access previous reconstruction projects.*
+
+---
+
+## ⚙️ Settings Screen
+
+![Settings Screen](./screenshots/settings-screen.png)
+
+*Users can adjust app preferences and backend-related settings.*
+
+---
+
+## 📖 Tutorial Screen
+
+![Tutorial Screen](./screenshots/tutorial-screen.png)
+
+*Tutorial instructions help users understand how to capture better image sets for reconstruction.*
+
+---
+
 ## 📸 Camera Capture Interface
 
 ![Capture Screen](./screenshots/capture-screen.png)
